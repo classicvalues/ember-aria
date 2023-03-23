@@ -142,7 +142,7 @@ importers:
       '@types/ember__debug': ^4.0.1
       '@types/ember__test-helpers': ^2.6.1
       babel-eslint: 10.1.0
-      concurrently: 7.2.1
+      concurrently: 7.6.0
       ember-modifier: ^3.2.7
       eslint: ^7.0.0
       eslint-config-prettier: 8.5.0
@@ -177,7 +177,7 @@ importers:
       '@types/ember__debug': 4.0.1_@babel+core@7.21.3
       '@types/ember__test-helpers': 2.6.1_@babel+core@7.21.3
       babel-eslint: 10.1.0_eslint@7.32.0
-      concurrently: 7.2.1
+      concurrently: 7.6.0
       eslint: 7.32.0
       eslint-config-prettier: 8.5.0_eslint@7.32.0
       eslint-plugin-decorator-position: 4.0.1_eslint@7.32.0
@@ -10506,22 +10506,6 @@ packages:
       typedarray: 0.0.6
     dev: true
 
-  /concurrently/7.2.1:
-    resolution: {integrity: sha512-7cab/QyqipqghrVr9qZmoWbidu0nHsmxrpNqQ7r/67vfl1DWJElexehQnTH1p+87tDkihaAjM79xTZyBQh7HLw==}
-    engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
-    hasBin: true
-    dependencies:
-      chalk: 4.1.2
-      date-fns: 2.28.0
-      lodash: 4.17.21
-      rxjs: 6.6.7
-      shell-quote: 1.7.3
-      spawn-command: 0.0.2-1
-      supports-color: 8.1.1
-      tree-kill: 1.2.2
-      yargs: 17.5.1
-    dev: true
-
   /concurrently/7.4.0:
     resolution: {integrity: sha512-M6AfrueDt/GEna/Vg9BqQ+93yuvzkSKmoTixnwEJkH0LlcGrRC2eCmjeG1tLLHIYfpYJABokqSGyMcXjm96AFA==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
@@ -10536,6 +10520,22 @@ packages:
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.5.1
+    dev: true
+
+  /concurrently/7.6.0:
+    resolution: {integrity: sha512-BKtRgvcJGeZ4XttiDiNcFiRlxoAeZOseqUvyYRUp/Vtd+9p1ULmeoSqGsDA+2ivdeDFpqrJvGvmI+StKfKl5hw==}
+    engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
+    hasBin: true
+    dependencies:
+      chalk: 4.1.2
+      date-fns: 2.29.3
+      lodash: 4.17.21
+      rxjs: 7.5.7
+      shell-quote: 1.7.3
+      spawn-command: 0.0.2-1
+      supports-color: 8.1.1
+      tree-kill: 1.2.2
+      yargs: 17.6.0
     dev: true
 
   /configstore/5.0.1:
