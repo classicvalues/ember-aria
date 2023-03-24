@@ -29,7 +29,7 @@ importers:
   docs:
     specifiers:
       '@babel/core': ^7.0.0
-      '@docfy/core': ^0.5.0
+      '@docfy/core': ^0.6.0
       '@docfy/ember': ^0.5.0
       '@ember/optional-features': ^2.0.0
       '@ember/test-helpers': ^2.6.0
@@ -74,7 +74,7 @@ importers:
       typescript: 4.5.2
       webpack: ^5.51.1
     dependencies:
-      '@docfy/core': 0.5.0
+      '@docfy/core': 0.6.0
       '@docfy/ember': 0.5.0
       ember-aria-utilities: file:ember-aria-utilities_5dg2zfxodhqv6taq4iskx5raf4
       ember-functions-as-helper-polyfill: 2.1.1_ember-source@4.4.0
@@ -4538,7 +4538,35 @@ packages:
     engines: {node: '>= 12.*'}
     dependencies:
       debug: 4.3.4
-      fast-glob: 3.2.11
+      fast-glob: 3.2.12
+      git-repo-info: 2.1.1
+      github-slugger: 1.4.0
+      hosted-git-info: 3.0.8
+      mdast-util-to-string: 2.0.0
+      mdast-util-toc: 5.1.0
+      rehype-stringify: 8.0.0
+      remark-extract-frontmatter: 3.2.0
+      remark-frontmatter: 3.0.0
+      remark-gfm: 1.0.0
+      remark-normalize-headings: 2.0.0
+      remark-parse: 9.0.0
+      remark-rehype: 8.1.0
+      remark-slug: 6.1.0
+      to-vfile: 6.1.0
+      trough: 1.0.5
+      unified: 9.2.2
+      unist-util-visit: 2.0.3
+      yaml: 1.10.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@docfy/core/0.6.0:
+    resolution: {integrity: sha512-2L5UiE720h6tmkTxvB43Q+nZybKV/8UC6jYVBqiyP9YriVjWxxVpTkR80Egg4rrMnGfYKedOI4ZgxekgdoHDMQ==}
+    engines: {node: '>= 12.*'}
+    dependencies:
+      debug: 4.3.4
+      fast-glob: 3.2.12
       git-repo-info: 2.1.1
       github-slugger: 1.4.0
       hosted-git-info: 3.0.8
@@ -13157,7 +13185,7 @@ packages:
     dev: true
 
   /escape-string-regexp/1.0.5:
-    resolution: {integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=}
+    resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
     engines: {node: '>=0.8.0'}
 
   /escape-string-regexp/4.0.0:
@@ -13970,17 +13998,6 @@ packages:
     resolution: {integrity: sha512-xJuoT5+L99XlZ8twedaRf6Ax2TgQVxvgZOYoPKqZufmJib0tL2tegPBOZb1pVNgIhlqDlA0eO0c3wBvQcmzx4w==}
     dev: true
 
-  /fast-glob/3.2.11:
-    resolution: {integrity: sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==}
-    engines: {node: '>=8.6.0'}
-    dependencies:
-      '@nodelib/fs.stat': 2.0.5
-      '@nodelib/fs.walk': 1.2.8
-      glob-parent: 5.1.2
-      merge2: 1.4.1
-      micromatch: 4.0.5
-    dev: false
-
   /fast-glob/3.2.12:
     resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
@@ -13990,7 +14007,6 @@ packages:
       glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.5
-    dev: true
 
   /fast-json-stable-stringify/2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
@@ -14352,7 +14368,7 @@ packages:
     dev: true
 
   /format/0.2.2:
-    resolution: {integrity: sha1-1hcBB+nv3E7TDJ3DkBbflCtctYs=}
+    resolution: {integrity: sha512-wzsgA6WOq+09wrU1tsJ09udeR/YZRaeArL9e1wPbFg3GG2yDnC2ldKpxs4xunpFF9DgqCqOIra3bc1HWrJ37Ww==}
     engines: {node: '>=0.4.x'}
     dev: false
 
@@ -14717,7 +14733,7 @@ packages:
     dev: false
 
   /glob-parent/3.1.0:
-    resolution: {integrity: sha1-nmr2KZ2NO9K9QEMIMr0RPfkGxa4=}
+    resolution: {integrity: sha512-E8Ak/2+dZY6fnzlR7+ueWvhsH1SjHr4jjss4YS/h4py44jY9MhK/VFdaZJAWDz6BbL21KeteKxFSFpq8OS5gVA==}
     dependencies:
       is-glob: 3.1.0
       path-dirname: 1.0.2
