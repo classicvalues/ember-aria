@@ -207,7 +207,7 @@ importers:
       '@glimmer/tracking': ^1.0.4
       '@glint/template': ^0.9.6
       '@nullvoxpopuli/eslint-configs': ^2.2.62
-      '@tsconfig/ember': ^1.0.1
+      '@tsconfig/ember': ^2.0.0
       '@types/ember': ^4.0.1
       '@types/ember__application': ^4.0.2
       '@types/ember__array': ^4.0.2
@@ -289,7 +289,7 @@ importers:
       '@glimmer/tracking': 1.1.2
       '@glint/template': 0.9.6_@glimmer+component@1.1.2
       '@nullvoxpopuli/eslint-configs': 2.2.62_typescript@4.8.4
-      '@tsconfig/ember': 1.0.1
+      '@tsconfig/ember': 2.0.0
       '@types/ember': 4.0.1_@babel+core@7.19.6
       '@types/ember__application': 4.0.2_@babel+core@7.19.6
       '@types/ember__array': 4.0.2_@babel+core@7.19.6
@@ -6186,8 +6186,8 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@tsconfig/ember/1.0.1:
-    resolution: {integrity: sha512-aPzLw5BfQxsFPrh5fNDOK4SbSkp2q5fMlrKVeniVjMz1lAcyOh2eH5THkKKcBi1YN1/fbMdAWN/dKGW6lg2+8g==}
+  /@tsconfig/ember/2.0.0:
+    resolution: {integrity: sha512-RzbDYYcjxVdG8Ki0xe99HN3+nHTZe6EBgw6N7B3yup7QogVFQQxA9nY7X80j1XzF15xqetwWiYfAjv5lkkp0/A==}
     dev: true
 
   /@tsconfig/node10/1.0.8:
